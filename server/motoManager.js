@@ -1,3 +1,3 @@
-import {moto} from './../driver/servo';
+const moto = require('./../driver/servo');
 
 moto.start();
