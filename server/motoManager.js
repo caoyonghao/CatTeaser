@@ -1,3 +1,3 @@
 const moto = require('./../driver/servo');
 
-moto.start();
+new moto().start();
