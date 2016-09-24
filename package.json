@@ -1,0 +1,22 @@
+{
+  "name": "cat-teaser",
+  "version": "1.0.0",
+  "description": "this is a cat teaser base on nodejs!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caoyonghao/CatTeaser.git"
+  },
+  "dependencies": {
+    "pigpio": "0.3.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caoyonghao/CatTeaser/issues"
+  },
+  "homepage": "https://github.com/caoyonghao/CatTeaser#readme"
+}
