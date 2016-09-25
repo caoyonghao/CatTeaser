@@ -12,7 +12,8 @@ class moto {
       increment = 100;
 
     setInterval(function() {
-      motoV.servoWrite(pulseWidth);
+      this.motoV.servoWrite(pulseWidth);
+      this.motoH.servoWrite(pulseWidth);
 
       pulseWidth += increment;
       if (pulseWidth >= 2000) {
