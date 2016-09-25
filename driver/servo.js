@@ -11,7 +11,7 @@ class moto {
     let pulseWidth = 1000,
       increment = 100;
 
-    setInterval(function() {
+    setInterval(() => {
       this.motoV.servoWrite(pulseWidth);
       this.motoH.servoWrite(pulseWidth);
 
