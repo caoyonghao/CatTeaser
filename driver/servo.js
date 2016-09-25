@@ -24,7 +24,8 @@ class moto {
 
   }
 }
-module.exports.moto = moto;
+
+exports.moto = moto;
 // var Gpio = require('../').Gpio,
 //   motor = new Gpio(10, {mode: Gpio.OUTPUT}),
 //   pulseWidth = 1000,
